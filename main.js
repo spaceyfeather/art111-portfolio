@@ -9,12 +9,15 @@ let wordSection = document.getElementById("word-section");
 let miniSection = document.getElementById("mini-section");
 
 let strip1Carousel = document.getElementById("strip1-carousel");
+let stripPCarousel = document.getElementById("strip-p-carousel");
 let miniCarousel = document.getElementById("mini-carousel");
 
 let currentPage = ssSection;
 
-carousel(strip1Carousel);
 carousel(miniCarousel);
+carousel(strip1Carousel);
+carousel(stripPCarousel);
+
 
 function changePage(currentPage) {
     let activeSections = document.querySelectorAll(".active-section");
